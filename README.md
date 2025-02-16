@@ -28,7 +28,7 @@ The code enables:
 ---
 
 ## 🗂 Repository Structure
-
+```
 ├── database/                          # Precomputed datasets for ML models
 │   ├── adsorbate_fingerprints/        # Molecular fingerprints of adsorbates (precalculated)
 │   └── label_data/                    # Target values for ML training/test
