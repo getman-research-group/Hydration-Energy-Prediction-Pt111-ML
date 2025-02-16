@@ -11,8 +11,6 @@
 - [Repository Structure](#-repository-structure)
 - [Dependencies](#-dependencies)
 - [Usage Guide](#-usage-guide)
-- [Citation](#-citation)
-- [License](#-license)
 
 ---
 
@@ -30,3 +28,21 @@ The code enables:
 ---
 
 ## 🗂 Repository Structure
+
+├── database/                          # Precomputed datasets for ML models
+│   ├── adsorbate_fingerprints/        # Molecular fingerprints of adsorbates (precalculated)
+│   └── label_data/                    # Target values for ML training/test
+│
+├── md_simulations/                    # Molecular dynamics (MD) output files for calculating features
+│   └── xyz_files/                     # Optimized adsorbate configurations on Pt(111)
+│
+├── python_scripts_adsorbate/          # Adsorbate fingerprint calculation scripts
+│   └── core/                          # Core functional scripts
+│
+├── python_scripts_config/             # Configuration model descriptors
+│   └── core/                          # Core scripts
+│
+├── python_scripts_traj/               # Trajectory model descriptors
+│   └── core/                          # Core scripts
+│
+└── README.md                          # This documentation
